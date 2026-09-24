@@ -217,6 +217,7 @@ rules:
 - apiGroups:
   - config.openshift.io
   resources:
+  - apiservers
   - clusteroperators
   - clusterversions
   - dnses
@@ -351,6 +352,7 @@ rules:
   - networking.k8s.io
   resources:
   - ingresses
+  - networkpolicies
   verbs:
   - create
   - delete
